@@ -8,3 +8,21 @@ then by adding 1 character repeatedly, it assembles them.
 Here is an example of how it works:D
 
 ![test_sentence_1](https://user-images.githubusercontent.com/80532804/223392341-67cc950a-f844-4fb5-83e0-c9ed4f407f7a.gif)
+
+Here is an code example how to use its methods
+
+```python
+import KRtype
+
+s = "안녕하세요"
+d = disassemble(s)
+a = assemble(list(d))
+```
+
+Here is detail parameter/return of two available functions
+
+```python
+def disassemble(str: string): -> string
+
+def assemble(list: string): -> list
+```
