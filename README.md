@@ -12,11 +12,11 @@ Here is an example of how it works:D
 Here is an code example how to use its methods
 
 ```python
-import KRtype
+import KRtype as kt
 
 s = "안녕하세요"
-d = disassemble(s)
-a = assemble(list(d))
+d = kt.disassemble(s)
+a = kt.assemble(list(d))
 ```
 
 Here is detail parameter/return of two available functions
